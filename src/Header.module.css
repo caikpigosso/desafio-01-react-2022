@@ -1,0 +1,61 @@
+.header {
+    background: var(--gray-700);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todoForm {
+    max-width: 46rem;
+    height: 3.37rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+}
+
+.todoForm>button {
+    background: var(--blue-600);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    color: var(--white);
+    border: 0;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.todoForm>input {
+    width: 46rem;
+    border: 0;
+    border-radius: 8px;
+    background: var(--gray-500);
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--gray-300);
+
+}
+
+.header img {
+    height: 3rem;
+    width: 7.8rem;
+    margin: 4.5rem 41.06rem 5rem 41.06rem;
+}
+
+@media (max-width: 768px) {
+
+    .todoForm>input {
+        width: auto;
+    }
+}

@@ -1,0 +1,72 @@
+.todo {
+    margin-top: 4rem;
+}
+
+.todoHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.todoCreated {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.todoCreated strong {
+    color: var(--blue-200);
+}
+
+
+.todoCreated span {
+    color: var(--white);
+    border-radius: 999px;
+    background: var(--gray-400);
+    padding: 0.12rem 0.5rem;
+}
+
+.todoFinished {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.todoFinished strong {
+    color: var(--purple-200);
+}
+
+
+.todoFinished span {
+    color: var(--white);
+    border-radius: 999px;
+    background: var(--gray-400);
+    padding: 0.12rem 0.5rem;
+}
+
+.todoList {
+    margin-top: 2rem;
+    border-top: 1px solid var(--gray-500);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.noHaveTodo {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noHaveTodo>strong {
+    font-weight: bold;
+    line-height: 140%;
+    font-size: 1rem;
+}
+
+.noHaveTodo>spam {
+    font-weight: bold;
+    line-height: 140%;
+    font-size: 1rem;
+}
